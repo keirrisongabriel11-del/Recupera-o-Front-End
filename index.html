@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+    <title>Mundo Cultural</title>
+</head>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
+
+<body>
+   <header>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark"> 
+        <div class="container"> 
+
+            <a class="navbar-brand" href="#">Mundo Cultural</a> 
+
+            <div class="navbar-nav ms-auto">
+
+                <a class="nav-link" href="#"> Início</a> 
+
+                <a class="nav-link" href="#">Locais</a> 
+
+                <a class="nav-link" href="#">Informações</a>
+
+            </div>  
+
+        </div>  
+
+    </nav> 
+    
+    <div class="apresentação"> 
+    <img src="./Assets/img/foto1.jpg" class="d-block w-100" style="width: 550px; height: 500px;  object-fit: cover;"> 
+
+                <div class="carousel-caption"> 
+                    <h1>Mundo Cultural</h1> 
+                    <p>Descubra lugares, histórias e experiências que conectam pessoas à cultura. Explore espaços especiais, conheça novos lugares e valorize a arte, a história e o patrimônio cultural.</p> 
+                    <button class="btn btn-primary">Explorar locais</button> 
+    </div>
+
+</header> 
+
+    <section class="container my-5">
+
+        <h2 class="text-center">
+            Conheça nossos locais
+        </h2>
+    
+        <div class="row">
+    
+            <!-- Card 1 - Museu da História -->
+            <div class="col-md-4">
+                <div class="card" style="width: 100%;">
+    
+                    <img src="./Assets/img/museu.jpg"
+                         class="card-img-top"
+                         alt="Museu"
+                         style="height: 250px; object-fit: cover;">
+    
+                    <div class="card-body">
+    
+                        <h5 class="card-title">
+                            Museu da História
+                        </h5>
+    
+                        <p class="card-text">
+                            Um espaço dedicado à preservação da história e da cultura, com exposições, objetos históricos e obras que ajudam a conhecer diferentes épocas.
+                            <br><strong>São Paulo - SP</strong>
+                        </p>
+    
+                        <button class="btn btn-primary"
+
+                        data-bs-toggle="modal"
+                        
+                        data-bs-target="#modalMuseu">
+                        
+                          Conhecer
+                        
+                        </button>
+    
+    
+                    </div>
+                </div>
+            </div>
+    
+            <div class="modal fade" id="modalMuseu">
+
+                <div class="modal-dialog">
+                
+                <div class="modal-content">
+                
+                <div class="modal-header">
+                
+                <h5 class="modal-title">Museu da História</h5>
+                
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                
+                
+                </div>
+                
+                <img src="./Assets/img/museu.jpg"
+                         class="card-img-top"
+                         alt="Museu"
+                         style="height: 250px; object-fit: cover;">
+                <div class="modal-body">
+                
+                    <h5>Descrição</h5>
+                    <p>
+                        O Museu da História é um espaço dedicado à preservação da
+                        história e da cultura, reunindo exposições, objetos históricos
+                        e obras que ajudam os visitantes a conhecer diferentes épocas.
+                    </p>
+    
+                    <h5>Endereço</h5>
+                    <p>Avenida da Cultura, 250 - Centro, São Paulo - SP</p>
+    
+                    <h5>Horário de funcionamento</h5>
+                    <p>Terça a domingo, das 9h às 17h.</p>
+    
+                    <h5>Informações adicionais</h5>
+                    <p>
+                        A entrada é gratuita para estudantes mediante apresentação
+                        da carteirinha. O espaço possui exposições permanentes e
+                        temporárias.
+                    </p>
+                
+                </div>
+                
+                <div class="modal-footer">
+                
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                
+                </div>
+                
+                </div>
+                
+                </div>
+                
+                </div>
+            <!-- Card 2 - Teatro Central -->
+            <div class="col-md-4">
+                <div class="card" style="width: 100%;">
+    
+                    <img src="./Assets/img/teatro.jpg"
+                         class="card-img-top"
+                         alt="Teatro"
+                         style="height: 250px; object-fit: cover;">
+    
+                    <div class="card-body">
+    
+                        <h5 class="card-title">
+                            Teatro Central
+                        </h5>
+    
+                        <p class="card-text">
+                            Espaço cultural que recebe peças de teatro, apresentações musicais, dança e diversos eventos artísticos.
+                            <br><strong>Campinas - SP</strong>
+                        </p>
+    
+                        <button class="btn btn-primary"
+
+                        data-bs-toggle="modal"
+                        
+                        data-bs-target="#modalTeatro">
+                        
+                          Conhecer
+                        
+                        </button>
+    
+    
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modalTeatro">
+
+                <div class="modal-dialog">
+                
+                <div class="modal-content">
+                
+                <div class="modal-header">
+                
+                <h5 class="modal-title">Teatro Central</h5>
+                
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                
+            
+                </div>
+                
+                <img src="./Assets/img/teatro.jpg"
+                         class="card-img-top"
+                         alt="Teatro"
+                         style="height: 250px; object-fit: cover;">
+                <div class="modal-body">
+                
+                    <h5>Descrição</h5>
+                    <p>
+                        O Teatro Central é um espaço dedicado às artes cênicas,
+                        recebendo apresentações de teatro, música, dança e diversos
+                        eventos culturais.
+                    </p>
+    
+                    <h5>Endereço</h5>
+                    <p>Rua das Artes, 180 - Centro, Campinas - SP</p>
+    
+                    <h5>Horário de funcionamento</h5>
+                    <p>Segunda a sábado, das 10h às 20h.</p>
+    
+                    <h5>Informações adicionais</h5>
+                    <p>
+                        A programação conta com diferentes apresentações durante
+                        o ano. Os horários dos espetáculos podem variar de acordo
+                        com o evento.
+                    </p>
+                
+                </div>
+                
+                <div class="modal-footer">
+                
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                
+                </div>
+                
+                </div>
+                
+                </div>
+                
+                </div>
+    
+            <!-- Card 3 - Parque das Palmeiras -->
+            <div class="col-md-4">
+                <div class="card" style="width: 100%;">
+    
+                    <img src="./Assets/img/parque.jpg"
+                         class="card-img-top"
+                         alt="Parque"
+                         style="height: 250px; object-fit: cover;">
+    
+                    <div class="card-body">
+    
+                        <h5 class="card-title">
+                            Parque das Palmeiras
+                        </h5>
+    
+                        <p class="card-text">
+                            Um espaço ao ar livre que combina natureza, lazer e cultura, ideal para caminhadas, atividades recreativas e momentos em família.
+                            <br><strong>Sorocaba - SP</strong>
+                        </p>
+    
+                        <button class="btn btn-primary"
+
+                        data-bs-toggle="modal"
+                        
+                        data-bs-target="#modalParque">
+                        
+                          Conhecer
+                        
+                        </button>
+    
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+        <div class="modal fade" id="modalParque">
+
+            <div class="modal-dialog">
+            
+            <div class="modal-content">
+            
+            <div class="modal-header">
+            
+            <h5 class="modal-title">Parque das Palmeiras</h5>
+            
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+             
+            
+            </div>
+            
+            <img src="./Assets/img/parque.jpg"
+                         class="card-img-top"
+                         alt="Parque"
+                         style="height: 250px; object-fit: cover;">
+            <div class="modal-body">
+            
+                <h5>Descrição</h5>
+                <p>
+                    O Parque das Palmeiras é um espaço ao ar livre que combina
+                    natureza, lazer e cultura, oferecendo um ambiente agradável
+                    para caminhadas, atividades recreativas e momentos em família.
+                </p>
+
+                <h5>Endereço</h5>
+                <p>Avenida das Palmeiras, 500 - Jardim Verde, Sorocaba - SP</p>
+
+                <h5>Horário de funcionamento</h5>
+                <p>Todos os dias, das 6h às 20h.</p>
+
+                <h5>Informações adicionais</h5>
+                <p>
+                    O parque possui áreas para caminhada, espaços de descanso
+                    e locais destinados a atividades culturais e recreativas.
+                </p>
+
+            
+            </div>
+            
+            <div class="modal-footer">
+            
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            
+            </div>
+            
+            </div>
+            
+            </div>
+            
+            </div>
+    </section>
+
+    <section class="container my-5">
+
+        <h2 class="text-center mb-4">
+            Perguntas Frequentes
+        </h2>
+    
+        <div class="accordion" id="faq">
+    
+            <!-- Pergunta 1 -->
+            <div class="accordion-item">
+    
+                <h2 class="accordion-header">
+                    <button class="accordion-button"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#pergunta1">
+    
+                            Quais locais podem ser visitados?
+    
+                    </button>
+                </h2>
+    
+                <div id="pergunta1"
+                     class="accordion-collapse collapse show"
+                     data-bs-parent="#faq">
+    
+                    <div class="accordion-body">
+                        O projeto apresenta três espaços culturais: o Museu da História, o Teatro Central e o Parque das Palmeiras. Cada local oferece uma experiência diferente relacionada à cultura, história, arte e lazer.
+                    </div>
+    
+                </div>
+    
+            </div>
+    
+    
+            <!-- Pergunta 2 -->
+            <div class="accordion-item">
+    
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#pergunta2">
+    
+                            Qual o horário de funcionamento dos locais?
+    
+                    </button>
+                </h2>
+    
+                <div id="pergunta2"
+                     class="accordion-collapse collapse"
+                     data-bs-parent="#faq">
+    
+                    <div class="accordion-body">
+                        Os horários variam de acordo com cada local. O Museu da História funciona de terça a domingo, das 9h às 17h. O Teatro Central funciona de segunda a sábado, das 10h às 20h. Já o Parque das Palmeiras funciona todos os dias, das 6h às 20h.
+                    </div>
+    
+                </div>
+    
+            </div>
+    
+    
+            <!-- Pergunta 3 -->
+            <div class="accordion-item">
+    
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#pergunta3">
+    
+                            É necessário fazer agendamento?
+    
+                    </button>
+                </h2>
+    
+                <div id="pergunta3"
+                     class="accordion-collapse collapse"
+                     data-bs-parent="#faq">
+    
+                    <div class="accordion-body">
+                        Para visitas comuns, não é necessário realizar agendamento. Porém, algumas apresentações, eventos e atividades especiais podem exigir reserva antecipada.
+                    </div>
+    
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    </section>
+   
+   <footer class="text-white mt-5" style="background-color: #1D3557;">
+
+    <div class="container py-5">
+
+        <div class="row">
+
+ 
+            <div class="col-md-6 mb-4">
+                <h4>Mundo Cultural</h4>
+
+                <p>
+                    Descubra lugares, histórias e experiências que conectam
+                    pessoas à cultura. Conheça espaços que valorizam a arte,
+                    a história e o lazer.
+                </p>
+            </div>
+
+ 
+            <div class="col-md-3 mb-4">
+                <h5>Informações</h5>
+
+                <ul class="list-unstyled">
+                    <li class="mb-2">Museu da História</li>
+                    <li class="mb-2">Teatro Central</li>
+                    <li class="mb-2">Parque das Palmeiras</li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 mb-4">
+                <h5>Contato</h5>
+
+                <p class="mb-2"> contato@mundocultural.com</p>
+                <p class="mb-2"> @mundocultural</p>
+                <p> São Paulo - SP</p>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="text-center">
+            <p class="mb-0">
+                © 2026 Mundo Cultural. Todos os direitos reservados.
+            </p>
+
+        
+        </div>
+
+    </div>
+
+</footer>
+</body>
+</html>
